@@ -9,11 +9,11 @@ resources:
 - ingress.yml
 - argocd/application.yml
   
+
 images:
 - name: 654654554686.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/backend
   newName: 654654554686.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/backend
-  newTag: v1.0
-
+  newTag: a8a6aa6bd9da71b969def33c2c8c374d4dd12d08
 - name: 654654554686.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/frontend
   newName: 654654554686.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/frontend
   newTag: v1.0
