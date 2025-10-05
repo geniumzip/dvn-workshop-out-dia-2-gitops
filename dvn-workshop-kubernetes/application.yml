@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/kenerry-serain/dvn-workshop-out-dia-2-gitops
     targetRevision: HEAD
-    path: .
+    path: dvn-workshop-kubernetes
   destination:
     server: https://kubernetes.default.svc
     namespace: default
