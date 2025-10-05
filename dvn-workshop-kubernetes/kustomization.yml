@@ -7,6 +7,7 @@ resources:
 - backend/deploy.yml
 - backend/service.yml
 - ingress.yml
+- argocd/application.yml
   
 images:
 - name: 654654554686.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/backend
